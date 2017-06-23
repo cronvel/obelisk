@@ -25,3 +25,7 @@ time.content-date {
 	padding: 0 10px;
 }
 
+nav {
+	display: block;
+	float: left;
+}
