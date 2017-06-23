@@ -1,0 +1,26 @@
+{
+  "name": "obelisk",
+  "version": "0.0.1",
+  "description": "A static blog generator",
+  "main": "lib/obelisk.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "babel-tower": "^0.12.5",
+    "fs-kit": "^0.2.3",
+    "glob": "^7.1.2",
+    "kung-fig": "^0.38.6",
+    "markdown-kit": "^0.2.3",
+    "seventh": "^0.3.0",
+    "string-kit": "^0.5.24",
+    "terminal-kit": "^1.10.2"
+  },
+  "keywords": [
+    "static",
+    "blog",
+    "generator"
+  ] ,
+  "author": "Cédric Ronvel",
+  "license": "MIT"
+}
