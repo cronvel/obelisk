@@ -1,2 +1,3 @@
 
-header: <Object>
+header:
+	navLinkTemplate: nav-link.partial.html
