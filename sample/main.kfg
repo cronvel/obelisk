@@ -1,4 +1,6 @@
 
+owner: Cédric Ronvel
+
 header:
 	#navLinkTemplate: nav-link.partial.html
 	

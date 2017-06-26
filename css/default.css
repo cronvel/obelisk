@@ -83,15 +83,23 @@ main {
 
 main article {
 	margin-top: 2em;
-	margin-bottom: 4em;
+	margin-bottom: 10em;
 }
 
 main article h1.title {
     margin: 2em 10px 0 10px;
 	border-bottom: 1px solid #d9d9d9;
+	font-size: 3.1em;
 }
 
-time.content-date {
+main article h1 { font-size: 2.3em; }
+main article h2 { font-size: 1.8em; }
+main article h3 { font-size: 1.5em; }
+main article h4 { font-size: 1.3em; }
+main article h5 { font-size: 1.2em; }
+main article h6 { font-size: 1.1em; }
+
+div.authoring {
 	display: block;
 	float: right;
 	color: #6a737d;
