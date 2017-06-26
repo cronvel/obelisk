@@ -6,8 +6,6 @@ tags:
 
 =*=*=*=
 
-# An Introduction to Node.js
-
 Blah blah blah. 
 Blah blah blah. 
 Blah blah blah. 
