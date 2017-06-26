@@ -11,20 +11,27 @@ ${cssLinks}
 <body>
 
 <header>
-${siteTitle}
+	<div class="title-baseline">
+		<div class="title">${siteTitle}</div>
+		<div class="baseline">${siteBaseLine}</div>
+	</div>
 </header>
 
-<nav>
-${nav}
-</nav>
+<div class="columns">
+	
+	<nav>
+		${nav}
+	</nav>
+	
+	<main>
+		${contents}
+	
+		<aside>
+			${asideContent}
+		</aside>
+	</main>
+</div>
 
-<main>
-${contents}
-</main>
-
-<aside>
-${asideContent}
-</aside>
 
 ${jsScripts}
 
