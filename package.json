@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "babel-tower": "^0.12.5",
-    "fs-kit": "^0.2.3",
+    "fs-kit": "^0.2.4",
     "glob": "^7.1.2",
     "kung-fig": "^0.38.6",
     "markdown-kit": "^0.2.7",
