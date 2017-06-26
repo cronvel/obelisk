@@ -1,6 +1,6 @@
 
 header:
-	navLinkTemplate: nav-link.partial.html
+	#navLinkTemplate: nav-link.partial.html
 	
 	asideContentTemplate: core:disqus.partial.html
 	disqusShortname: test-T2Eq42jvgP

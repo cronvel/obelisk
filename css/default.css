@@ -1,11 +1,13 @@
 
 body {
+    margin: 0;
 }
 
 header {
 	display: block;
-	padding: 4em;
+	padding: 2em;
 	background-color: #ffa;
+	background-size: cover;
 }
 
 header .title-baseline {
@@ -17,6 +19,9 @@ header .title {
 	display: table-row;
 	text-align: center;
 	font-size: 4em;
+	font-family: Helvetica,arial,freesans,clean,sans-serif;
+	color: #eee;
+	text-shadow: 1px 1px 5px #333;
 }
 
 header .baseline {
@@ -29,10 +34,30 @@ div.columns {
 	display: flex;
 }
 
-nav {
+div.columns nav {
 	display: block;
 	flex: 1;
+	padding: 2em 1em;
 	background-color: #bbf;
+}
+
+div.columns nav .menu-item {
+	display: block;
+	margin: 0;
+	padding: 0.5em 1em;
+}
+
+div.columns nav footer {
+	display: block;
+	color: #6a737d;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 8em 1em 0 1em;
+	padding: 0;
+}
+
+nav .menu-item:hover {
+	background-color: #99f;
 }
 
 main {
@@ -60,4 +85,19 @@ time.content-date {
 	color: #6a737d;
 	padding: 0 10px;
 }
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active ,
+a:hover {
+    outline: 0 none;
+}
+
 

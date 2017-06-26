@@ -10,7 +10,7 @@ ${cssLinks}
 </head>
 <body>
 
-<header>
+<header style="background-image:url('${cover}')">
 	<div class="title-baseline">
 		<div class="title">${siteTitle}</div>
 		<div class="baseline">${siteBaseLine}</div>
@@ -21,6 +21,14 @@ ${cssLinks}
 	
 	<nav>
 		${nav}
+		
+		<footer>
+			<section class="copyright">
+				© ${copyrightYear} <a href="${copyrightLink}">${copyright}</a> • All rights reserved.
+			</section>
+			
+			<section class="poweredby">Proudly powered by <a href="${poweredByLink}">${poweredBy}</a></section>
+		</footer>
 	</nav>
 	
 	<main>
@@ -31,7 +39,6 @@ ${cssLinks}
 		</aside>
 	</main>
 </div>
-
 
 ${jsScripts}
 
