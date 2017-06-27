@@ -99,7 +99,7 @@ main article h4 { font-size: 1.3em; }
 main article h5 { font-size: 1.2em; }
 main article h6 { font-size: 1.1em; }
 
-div.authoring {
+div.content-info {
 	display: block;
 	float: right;
 	color: #6a737d;
