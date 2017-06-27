@@ -1,6 +1,10 @@
 <article>
 <h1 class="title">${title}</h1>
-<div class="authoring">Written <time class="content-date">${date}</time> by <em>${author}</em></div>
+<div class="authoring">
+	<i class="fa fa-calendar" aria-hidden="true"></i>
+	Written <time class="content-date">${date}</time> by <em>${author}</em><br />
+	<i class="fa fa-tag" aria-hidden="true"></i> ${tags}[enum:(none)|$#| · $#]
+</div>
 <div class="spacer2x"></div>
 ${content}
 </article>
