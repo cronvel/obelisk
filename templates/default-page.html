@@ -19,7 +19,7 @@ ${cssLinks}
 
 <div class="columns">
 	
-	<nav>
+	<nav class="sider">
 		${nav}
 		
 		<footer>
@@ -32,8 +32,12 @@ ${cssLinks}
 	</nav>
 	
 	<main>
+		<nav>${contextNav}</nav>
+		
 		${contents}
-	
+		
+		<nav>${contextNav}</nav>
+		
 		<aside>
 			${asideContent}
 		</aside>

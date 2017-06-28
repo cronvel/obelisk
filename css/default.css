@@ -41,7 +41,7 @@ div.columns {
 	display: flex;
 }
 
-div.columns nav {
+div.columns .sider {
 	display: block;
 	flex: 1;
 	padding: 6em 1em 1em 1em;
@@ -49,14 +49,35 @@ div.columns nav {
 	box-shadow: 1px 1px 5px 2px #777;
 }
 
-div.columns nav .menu-item {
+div.columns .sider .menu-item {
 	display: block;
 	margin: 0;
 	padding: 0.5em 1em;
 	border-bottom: solid 1px #aaa;
 }
 
-div.columns nav footer {
+div.columns .sider .menu-item:hover {
+	background-color: #99f;
+}
+
+main nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0.5em 1em;
+}
+
+main nav .menu-item {
+	margin: 0;
+	padding: 0.5em 1em;
+	border-bottom: solid 1px #aaa;
+}
+
+main nav .menu-item:hover {
+	background-color: #99f;
+}
+
+div.columns .sider footer {
 	display: block;
 	color: #6a737d;
 	font-size: 0.8em;
@@ -67,10 +88,6 @@ div.columns nav footer {
 
 footer .copyright, footer .poweredby {
     font-family: serif;
-}
-
-nav .menu-item:hover {
-	background-color: #99f;
 }
 
 main {
