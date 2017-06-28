@@ -2,7 +2,6 @@
 owner: Cédric Ronvel
 
 header:
-	#navLinkTemplate: nav-link.partial.html
 	js: https://use.fontawesome.com/8cf6cfcadc.js
 	asideContentTemplate: core:disqus.partial.html
 	disqusShortname: test-T2Eq42jvgP
