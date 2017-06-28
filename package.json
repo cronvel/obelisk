@@ -17,7 +17,7 @@
     "markdown-kit": "^0.2.8",
     "moment": "^2.18.1",
     "seventh": "^0.3.1",
-    "string-kit": "^0.5.24",
+    "string-kit": "^0.5.26",
     "terminal-kit": "^1.10.2",
     "tree-kit": "^0.5.26"
   },
