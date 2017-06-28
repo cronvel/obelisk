@@ -20,7 +20,7 @@ ${cssLinks}
 <div class="columns">
 	
 	<nav class="sider">
-		${nav}
+		${navList}[enum:$#]
 		
 		<footer>
 			<section class="copyright">
@@ -32,11 +32,11 @@ ${cssLinks}
 	</nav>
 	
 	<main>
-		<nav>${contextNav}</nav>
+		<nav>${contextNavList}[enum:$#]</nav>
 		
-		${contents}
+		${contentList}[enum:$#]
 		
-		<nav>${contextNav}</nav>
+		<nav>${contextNavList}[enum:$#]</nav>
 		
 		<aside>
 			${asideContent}
