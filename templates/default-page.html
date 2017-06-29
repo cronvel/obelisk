@@ -31,8 +31,10 @@ ${cssLinks}
 		</footer>
 	</nav>
 	
-	<main>
+	<main class="${pageType}">
 		<nav>${contextNavList}[enum:$#]</nav>
+		
+		<h1 class="page-title">${pageTitleIcon} ${pageTitle}</h1>
 		
 		${contentList}[enum:$#]
 		

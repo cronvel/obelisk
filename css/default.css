@@ -105,6 +105,17 @@ main article {
 	margin-bottom: 10em;
 }
 
+main h1.page-title {
+	text-align: center;
+	font-size: 2em;
+}
+
+main h1.page-title {
+	text-align: center;
+	font-size: 2em;
+	color: #6a737d;
+}
+
 main article h1.title {
     margin: 2em 10px 0 10px;
 	border-bottom: 1px solid #d9d9d9;

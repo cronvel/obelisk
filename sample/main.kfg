@@ -7,6 +7,7 @@ header:
 	disqusShortname: test-T2Eq42jvgP
 
 tagPages:
+	pageTitleIcon: > <i class="fa fa-tag"></i>
 	addToNavTags:
 		- nodejs
 	
