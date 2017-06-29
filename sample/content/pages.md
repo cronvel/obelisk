@@ -1,5 +1,6 @@
 
-noNav: true
+title: Last Articles
+addToNav: true
 
 multiple: pages
 

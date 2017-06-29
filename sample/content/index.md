@@ -1,5 +1,6 @@
 
-title: My doc
+addToNav: true
+title: Home
 
 =*=*=*=
 

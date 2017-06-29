@@ -4,6 +4,7 @@ title: An Introduction to Node.js
 tags:
 	- coding
 	- nodejs
+addToNav: true
 
 =*=*=*=
 

@@ -6,6 +6,7 @@ header:
 	asideContentTemplate: core:disqus.partial.html
 	disqusShortname: test-T2Eq42jvgP
 
-tagsHeader:
-	js: https://use.fontawesome.com/8cf6cfcadc.js
+tagPages:
+	addToNavTags:
+		- nodejs
 	
