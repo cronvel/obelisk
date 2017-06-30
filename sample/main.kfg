@@ -17,6 +17,7 @@ navList:
 		order: -10
 
 header:
+	css: /css/main.css
 	js: https://use.fontawesome.com/8cf6cfcadc.js
 	asideContentTemplate: core:disqus.partial.html
 	disqusShortname: test-T2Eq42jvgP
