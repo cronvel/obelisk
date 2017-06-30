@@ -140,6 +140,20 @@ main article h4 { font-size: 1.3em; }
 main article h5 { font-size: 1.2em; }
 main article h6 { font-size: 1.1em; }
 
+main article footer {
+	margin-top: 4em;
+	padding: 0 10px;
+}
+
+main article footer a.comment-counter {
+	font-weight: bold;
+}
+
+main article footer .fa.comment-counter {
+	font-weight: bold;
+    color: #0366d6;
+}
+
 div.content-info {
 	display: block;
 	float: right;

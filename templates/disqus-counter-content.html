@@ -1,0 +1,18 @@
+<article>
+	<a href="${urlPath}" class="title"><h1 class="title">${title}</h1></a>
+	
+	<div class="content-info">
+		<i class="fa fa-calendar" aria-hidden="true"></i>
+		Written <time class="content-date">${date}</time> by <em>${author}</em><br />
+		<i class="fa fa-tag" aria-hidden="true"></i> ${tagNavLinks}[enum:(none)|$#| · $#]
+	</div>
+	
+	${content}
+	
+	<footer>
+		<i class="fa fa-comment-o comment-counter" aria-hidden="true"></i>
+		<a href="${url}#disqus_thread" data-disqus-identifier="${urlPath}" class="comment-counter">So many comments</a>
+		<!--<a href="${url}#disqus_thread" class="comment-counter">So many comments</a>-->
+	</footer>
+</article>
+
