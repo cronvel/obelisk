@@ -1,20 +1,12 @@
 
-addToNav: true
 title: Home
 
+multiple: pages
+
+asideContentTemplate: null
+
+query:
+	limit: 2
+	order: desc
+
 =*=*=*=
-
-# Some Title
-
-Some content, Some content, Some content, Some content, Some content, Some content, 
-Some content, Some content, Some content, Some content, Some content, Some content, 
-Some content, Some content, Some content, Some content, Some content, Some content, 
-
-=+=+=+=
-
-# Another Article
-
-Some content, Some content, Some content, Some content, Some content, Some content, 
-Some content, Some content, Some content, Some content, Some content, Some content, 
-Some content, Some content, Some content, Some content, Some content, Some content, 
-

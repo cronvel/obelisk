@@ -10,17 +10,19 @@ ${cssLinks}
 </head>
 <body>
 
-<header style="background-image:url('${cover}')">
-	<div class="title-baseline">
-		<div class="title">${siteTitle}</div>
-		<div class="baseline">${siteBaseLine}</div>
-	</div>
-</header>
+<a href="${urlRootPath}">
+	<header style="background-image:url('${cover}')">
+		<div class="title-baseline">
+			<div class="title">${siteTitle}</div>
+			<div class="baseline">${siteBaseLine}</div>
+		</div>
+	</header>
+</a>
 
 <div class="columns">
 	
-	<nav class="sider">
-		${navLinks}[enum:$#]
+	<div class="sider">
+		<nav>${navLinks}[enum:$#]</nav>
 		
 		<footer>
 			<section class="copyright">
@@ -29,7 +31,7 @@ ${cssLinks}
 			
 			<section class="poweredby">Proudly powered by <a href="${poweredByLink}">${poweredBy}</a></section>
 		</footer>
-	</nav>
+	</div>
 	
 	<main class="${pageType}">
 		<nav>${contextNavLinks}[enum:$#]</nav>

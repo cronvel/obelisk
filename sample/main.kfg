@@ -2,11 +2,19 @@
 owner: Cédric Ronvel
 
 navList:
+	-	title: Home
+		icon: > <i class="fa fa-home"></i>
+		url: /
+		order: 20
 	-	title: Node.js
 		url: /tags/nodejs
 	-	title: Hi-Tech
 		url: /tags/hi-tech
 		order: 5
+	-	title: Contact
+		icon: > <i class="fa fa-envelope"></i>
+		url: mailto:cedric.ronvel@gmail.com
+		order: -10
 
 header:
 	js: https://use.fontawesome.com/8cf6cfcadc.js
@@ -15,4 +23,5 @@ header:
 
 tagPages:
 	pageTitleIcon: > <i class="fa fa-tag"></i>
+	asideContentTemplate: null
 	

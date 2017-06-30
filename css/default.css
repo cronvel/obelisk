@@ -49,14 +49,18 @@ div.columns .sider {
 	box-shadow: 1px 1px 5px 2px #777;
 }
 
-div.columns .sider .menu-item {
+div.columns .sider nav .menu-item {
 	display: block;
 	margin: 0;
 	padding: 0.5em 1em;
 	border-bottom: solid 1px #aaa;
 }
 
-div.columns .sider .menu-item[href]:hover {
+div.columns .sider nav a:hover {
+	text-decoration: none;
+}
+
+div.columns .sider nav a .menu-item:hover {
 	background-color: #99f;
 }
 
@@ -75,7 +79,11 @@ main nav .menu-item {
 	border-bottom: solid 1px #aaa;
 }
 
-main nav .menu-item[href]:hover {
+main nav .menu-item.empty {
+	padding: 0;
+}
+
+main nav a .menu-item:hover {
 	background-color: #99f;
 }
 
@@ -136,6 +144,10 @@ div.content-info {
 	padding: 0 10px;
 }
 
+div.content-info .menu-item {
+	display: inline;
+}
+
 main #disqus_thread {
 	padding: 10px;
 }
@@ -145,7 +157,7 @@ a {
     text-decoration: none;
 }
 
-a[href]:hover {
+div.columns a[href]:hover {
     text-decoration: underline;
 }
 
