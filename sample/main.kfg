@@ -1,6 +1,13 @@
 
 owner: Cédric Ronvel
 
+navList:
+	-	title: Node.js
+		url: /tags/nodejs
+	-	title: Hi-Tech
+		url: /tags/hi-tech
+		order: 5
+
 header:
 	js: https://use.fontawesome.com/8cf6cfcadc.js
 	asideContentTemplate: core:disqus.partial.html
@@ -8,6 +15,4 @@ header:
 
 tagPages:
 	pageTitleIcon: > <i class="fa fa-tag"></i>
-	addToNavTags:
-		- nodejs
 	
