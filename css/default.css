@@ -126,6 +126,11 @@ main article h1.title {
     margin: 2em 10px 0 10px;
 	border-bottom: 1px solid #d9d9d9;
 	font-size: 3.1em;
+	color: #24292e;
+}
+
+main article a.title[href]:hover {
+	text-decoration: none;
 }
 
 main article h1 { font-size: 2.3em; }
