@@ -1,4 +1,14 @@
 
+## Command line option
+
+* base: base path
+* preview: preview/local mode, page that should not be published are still built
+* protocol: the protocol (either 'http://' or 'https://')
+* domain: the website domain, e.g. my-blog.com
+* urlRootPath: the root path of the website, default to: /
+
+
+
 ## Top-level properties
 
 * siteTitle: the title of the website, e.g.: My Wonderful Blog
@@ -15,6 +25,8 @@
 * lang: the language of the website, default to: 'en' (english)
 * dateFormat: the date's display format (moment.js format), default to: 'LLLL'
 * inputDateFormat: the date's input format (moment.js format), default to: 'L LT'
+
+* preview: if true/on/yes, page that should not be published are still built
 
 * nginxTemplate: the template for the Nginx conf, default to: /templates/nginx.conf
 
