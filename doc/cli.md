@@ -20,11 +20,21 @@ It build the website.
 
 ## 'publish' command
 
+*alias: 'pub'*
+
 It publish locally or remotely.
 The second argument should be the target, and a file named `<target-name>.target.kfg` should exist.
 
 ### Options
 
 * build: build the site before publishing
-* watch: -TODO- do not exit, watch for changes, build and publish again anytime a file is changed
+* watch: force `--build`, does not exit, watches for changes, build and publish again anytime a file is changed
+
+
+
+## 'realtime' command
+
+*alias: 'rt'*
+
+Like *'publish --watch'*, any changes are immediately forwarded to the target.
 
