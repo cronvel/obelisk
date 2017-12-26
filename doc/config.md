@@ -1,14 +1,4 @@
 
-## Command line option
-
-* base: base path
-* preview: preview/local mode, page that should not be published are still built
-* protocol: the protocol (either 'http://' or 'https://')
-* domain: the website domain, e.g. my-blog.com
-* urlRootPath: the root path of the website, default to: /
-
-
-
 ## Top-level properties
 
 * siteTitle: the title of the website, e.g.: My Wonderful Blog
