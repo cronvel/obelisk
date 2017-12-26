@@ -26,5 +26,5 @@ The second argument should be the target, and a file named `<target-name>.target
 ### Options
 
 * build: build the site before publishing
-* watch: do not exit, watch for change, build and publish again anytime a file is changed
+* watch: -TODO- do not exit, watch for changes, build and publish again anytime a file is changed
 
