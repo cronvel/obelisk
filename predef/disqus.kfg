@@ -19,10 +19,13 @@ navList:
 header:
 	css: /css/main.css
 	js: > https://use.fontawesome.com/${font-awesome-id}.js
-	asideContentTemplate: core:default-aside.html
+	asideContentTemplate: core:disqus-aside.html
+	jsTemplate: core:disqus-js.html
+	disqusShortname: > ${disqus-shortname}
 
 tagPages:
 	pageTitleIcon: > <i class="fa fa-tag"></i>
-	contentTemplate: core:default-content.html
+	contentTemplate: core:disqus-counter-content.html
 	asideContentTemplate: null
+	jsTemplate: core:disqus-counter-js.html
 	
