@@ -1,0 +1,31 @@
+
+owner: > ${site-owner}
+domain: > ${site-domain}
+siteTitle: > ${site-title}
+siteBaseLine: > ${site-baseline}
+siteDescription: > ${site-description}
+lang: en
+
+navList:
+	-	title: Home
+		icon: > <i class="fa fa-home"></i>
+		url: /
+		order: 20
+	-	title: Contact
+		icon: > <i class="fa fa-envelope"></i>
+		url: > mailto:${contact-email}
+		order: -10
+
+header:
+	css: /css/main.css
+	js: > https://use.fontawesome.com/${font-awesome-id}.js
+	asideContentTemplate: core:disqus-aside.html
+	jsTemplate: core:disqus-js.html
+	disqusShortname: > ${disqus-shortname}
+
+tagPages:
+	pageTitleIcon: > <i class="fa fa-tag"></i>
+	contentTemplate: core:disqus-counter-content.html
+	asideContentTemplate: null
+	jsTemplate: core:disqus-counter-js.html
+	

@@ -5,6 +5,13 @@
 
 
 
+## 'init' command
+
+It init an obelisk project.
+The second argument is optional and is the predef name used to init the project.
+
+
+
 ## 'build' command
 
 It build the website.
@@ -32,8 +39,9 @@ The second argument should be the target, and a file named `<target-name>.target
 
 
 
-## 'realtime' command
+## 'live' command
 
+*alias: 'realtime'*
 *alias: 'rt'*
 
 Like *'publish --watch'*, any changes are immediately forwarded to the target.
