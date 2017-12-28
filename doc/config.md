@@ -40,7 +40,10 @@
 * author: the author of this page
 * tags: a tag or an array of tags for the page
 * cover: cover image for the page, default to */media/cover.png*
-* publish: if true/yes/on, the page is published (built), if false/no/off, the page is not published (not built)
+
+* publish: if true/yes/on (the default), the page is published (built), if false/no/off, the page is not published (not built)
+* addToNav: if true/yes/on, this page is added to the navigation menu (default: false/no/off)
+* queryable: if true/yes/on (the default), content on this page can appear in query page
 
 * copyright: name of the copyright holder, default to *Me*
 * copyrightLink: link URL for the copyright, default to: *mailto:someone@somewhere.net*
