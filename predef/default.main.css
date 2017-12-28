@@ -4,3 +4,8 @@
 body {
 	font-family: Lato,Helvetica,arial,freesans,clean,sans-serif;
 }
+
+header {
+	background-position: top;
+}
+

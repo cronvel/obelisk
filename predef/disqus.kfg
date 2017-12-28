@@ -1,10 +1,10 @@
 
-owner: > ${site-owner}
-domain: > ${site-domain}
-siteTitle: > ${site-title}
+owner: > ${site-owner}[d:unknown]
+domain: > ${site-domain}[d:obelisk.local]
+siteTitle: > ${site-title}[d:My Blog]
 siteBaseLine: > ${site-baseline}
 siteDescription: > ${site-description}
-lang: en
+lang: > ${language-locale}[d:en]
 
 navList:
 	-	title: Home
@@ -13,15 +13,15 @@ navList:
 		order: 20
 	-	title: Contact
 		icon: > <i class="fa fa-envelope"></i>
-		url: > mailto:${contact-email}
+		url: > mailto:${contact-email}[d:nobody@nodomain.net]
 		order: -10
 
 header:
 	css: /css/main.css
-	js: > https://use.fontawesome.com/${font-awesome-id}.js
+	js: > https://use.fontawesome.com/${font-awesome-id}[d:8cf6cfcadc].js
 	asideContentTemplate: core:disqus-aside.html
 	jsTemplate: core:disqus-js.html
-	disqusShortname: > ${disqus-shortname}
+	disqusShortname: > ${disqus-shortname}[d:test-blog]
 
 tagPages:
 	pageTitleIcon: > <i class="fa fa-tag"></i>
