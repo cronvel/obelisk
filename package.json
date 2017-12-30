@@ -1,6 +1,6 @@
 {
   "name": "obelisk",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "A static blog generator",
   "main": "lib/obelisk.js",
   "engines": {
