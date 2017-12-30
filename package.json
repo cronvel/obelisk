@@ -1,6 +1,6 @@
 {
   "name": "obelisk",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "A static blog generator",
   "main": "lib/obelisk.js",
   "engines": {
@@ -10,7 +10,7 @@
     "obelisk": "./bin/obelisk"
   },
   "dependencies": {
-    "babel-tower": "^0.14.3",
+    "babel-tower": "^0.14.4",
     "chokidar": "^1.7.0",
     "fs-kit": "^0.3.0",
     "glob": "^7.1.2",
