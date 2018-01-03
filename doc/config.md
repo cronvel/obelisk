@@ -37,7 +37,9 @@
 ## Page header properties
 
 * title: the page title
-* author: the author of this page
+* author: the author of this page, in input it's either a string (the author name) or an object,
+  in output (at template rendering time) it's always an object (but with a .toString() returning the *name* property).
+  See author data.
 * tags: a tag or an array of tags for the page
 * cover: cover image for the page, default to */media/cover.png*
 
@@ -79,6 +81,19 @@
 
 
 
+## Author data
+
+* name: the name of the author
+* id: the id of the author, i.e. its name after some normalization suitable for URL and files
+* url: the URL of its page
+
+Standardized data:
+
+* picture: a photo or avatar of the author
+* bio: a short biography of the author
+
+
+
 ## Page data
 
 * header: page header, see page header properties
@@ -102,7 +117,7 @@
 ## Hooks
 
 Hooks are Javascript functions exported in the */hooks.js* file, if any.
-All those hooks should return a Promise.
+All those hooks must return a Promise.
 
 * init( config ): called at init time, with the whole config
 * templateRenderer( config, data, template, templateCache ): the template renderer for the whole page, called with:
