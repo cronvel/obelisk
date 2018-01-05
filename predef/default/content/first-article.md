@@ -4,6 +4,7 @@ title: Then cats take over the world...
 author: Meow
 tags:
 	- cats
+	- fun
 addToNav: yes
 
 =*=*=*=
