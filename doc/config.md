@@ -90,6 +90,7 @@
 ## Link data
 
 * text: the text of the link
+* title: alias of text
 * url: the URL/href of the link
 * iconHtml: (optional) HTML code for an icon (e.g.: `<i class="fa fa-tag"></i>`)
 * image: (optional) the URL of an image

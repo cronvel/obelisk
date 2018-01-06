@@ -22,7 +22,13 @@ ${cssLinks}
 <div class="columns">
 	
 	<div class="sider">
-		<nav>${navLinks}[enum:$#]</nav>
+		<nav>
+		{{$navLinks}}
+			{{$url}}<a href="$">{{/}}
+			<div class="menu-item{{$indent}} indent-${{/}}">{{$iconHtml}}$ {{/}}${text}</div>
+			{{$url}}</a>{{/}}
+		{{/}}
+		</nav>
 		
 		<footer>
 			<section class="copyright">
@@ -34,13 +40,13 @@ ${cssLinks}
 	</div>
 	
 	<main class="${pageType}">
-		<nav>${contextNavLinks}[enum:$#]</nav>
+		<nav>{{$contextNavLinks}}${{/}}</nav>
 		
 		<h1 class="page-title">${pageTitleIcon} ${pageTitle}</h1>
 		
 		${contentList}[enum:$#]
 		
-		<nav>${contextNavLinks}[enum:$#]</nav>
+		<nav>{{$contextNavLinks}}${{/}}</nav>
 		
 		<aside>
 			${asideContent}
