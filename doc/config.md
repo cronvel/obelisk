@@ -81,6 +81,22 @@
 
 
 
+## Page header populated properties (accessible in templates)
+
+* tagNavLinks: an array of tag links (see link data)
+
+
+
+## Link data
+
+* text: the text of the link
+* url: the URL/href of the link
+* iconHtml: (optional) HTML code for an icon (e.g.: `<i class="fa fa-tag"></i>`)
+* image: (optional) the URL of an image
+* indent: (optional) link indent (for menu)
+
+
+
 ## Author data
 
 * name: the name of the author

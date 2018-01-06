@@ -10,7 +10,7 @@
     "obelisk": "./bin/obelisk"
   },
   "dependencies": {
-    "babel-temple": "^0.1.3",
+    "babel-temple": "^0.1.4",
     "babel-tower": "^0.14.4",
     "chokidar": "^1.7.0",
     "fs-kit": "^0.3.0",
