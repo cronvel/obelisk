@@ -10,12 +10,12 @@
     "obelisk": "./bin/obelisk"
   },
   "dependencies": {
-    "babel-temple": "^0.1.4",
-    "babel-tower": "^0.14.4",
+    "babel-temple": "^0.3.2",
+    "babel-tower": "^0.15.0",
     "chokidar": "^1.7.0",
     "fs-kit": "^0.3.0",
     "glob": "^7.1.2",
-    "kung-fig": "^0.41.1",
+    "kung-fig": "^0.42.0",
     "markdown-kit": "^0.2.11",
     "minimist": "^1.2.0",
     "moment": "^2.18.1",
