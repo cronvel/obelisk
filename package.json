@@ -1,6 +1,6 @@
 {
   "name": "obelisk",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A static blog generator",
   "main": "lib/obelisk.js",
   "engines": {
@@ -10,8 +10,8 @@
     "obelisk": "./bin/obelisk"
   },
   "dependencies": {
-    "babel-temple": "^0.3.2",
-    "babel-tower": "^0.15.0",
+    "babel-temple": "^0.3.3",
+    "babel-tower": "^0.15.3",
     "chokidar": "^1.7.0",
     "fs-kit": "^0.3.0",
     "glob": "^7.1.2",
@@ -20,7 +20,7 @@
     "minimist": "^1.2.0",
     "moment": "^2.18.1",
     "seventh": "^0.6.4",
-    "string-kit": "^0.6.4",
+    "string-kit": "^0.6.8",
     "terminal-kit": "^1.10.2",
     "tree-kit": "^0.5.26"
   },
