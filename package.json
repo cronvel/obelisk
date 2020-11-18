@@ -1,6 +1,6 @@
 {
   "name": "obelisk",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "A static blog generator",
   "main": "lib/obelisk.js",
   "engines": {
@@ -40,7 +40,8 @@
   "copyright": {
     "title": "Obelisk",
     "years": [
-      2017
+      2017,
+      2020
     ],
     "owner": "Cédric Ronvel"
   }
