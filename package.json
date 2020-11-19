@@ -1,6 +1,6 @@
 {
   "name": "obelisk",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "A static blog generator",
   "main": "lib/obelisk.js",
   "engines": {
@@ -15,7 +15,7 @@
     "chokidar": "^3.4.3",
     "fs-kit": "^0.6.1",
     "kung-fig": "^0.54.3",
-    "markdown-kit": "^0.3.10",
+    "markdown-kit": "^0.3.11",
     "minimist": "^1.2.5",
     "moment": "^2.29.1",
     "server-kit": "^0.9.39",
